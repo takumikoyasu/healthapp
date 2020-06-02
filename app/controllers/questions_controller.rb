@@ -3,6 +3,7 @@ class QuestionsController < ApplicationController
   end
 
   def new
+    @question = Qusestion.new
   end
   
   def create
